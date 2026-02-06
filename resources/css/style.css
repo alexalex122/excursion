@@ -1,60 +1,65 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: white;
 }
 
+/* Hero title */
 h1 {
-    font-size: 42px;
-    margin-top: 60px;
-    margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 40px;
 }
 
+/* Download links */
+.download-link {
+  display: block;
+  margin: 20px 0 40px;
+  font-size: 16px;
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+/* Phone image */
+.phone-wrapper img {
+  width: 300px;
+  max-width: 90%;
+}
+
+/* Section title */
 h2 {
-    font-size: 36px;
-    margin: 60px 0 10px;
+  font-size: 42px;
+  font-weight: 300;
+  margin-top: 60px;
 }
 
-p {
-    color: #aaa;
-    max-width: 700px;
-    margin: 0 auto 40px;
-    font-size: 16px;
+/* Description text */
+.description {
+  font-size: 21px;
+  color: gray;
+  max-width: 700px;
+  margin: 20px auto 40px;
 }
 
-.download {
-    color: #2fffd6;
-    text-decoration: none;
-    font-size: 14px;
+/* Landscape image */
+.image-wrapper img {
+  width: 100%;
+  max-width: 900px;
 }
 
-.phone {
-    margin: 40px 0;
+/* Icon */
+.icon-wrapper img {
+  margin-top: 40px;
+  width: 60px;
 }
 
-.phone img {
-    width: 280px;
-}
-
-.image-large img {
-    width: 80%;
-    max-width: 900px;
-    border-radius: 4px;
-}
-
-.coming-soon {
-    margin-top: 60px;
-}
-
-.icon {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
+/* Footer */
 footer {
-    color: #555;
-    font-size: 14px;
-    margin: 40px 0 20px;
+  text-align: right;
+  color: gray;
+  font-size: 14px;
+  margin: 40px 20px 20px;
 }
